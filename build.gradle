@@ -3,12 +3,12 @@ plugins {
 }
 
 golang {
-    packagePath = 'github.com/siloa-padhy/sasa_test' // go import path of project to be built, NOT local file system path!
+    packagePath = 'github.com/my/package' // go import path of project to be built, NOT local file system path!
 }
 
 dependencies {
     golang {
-        build 'github.com/golang/sasa_test'
+        build 'github.com/golang/example#0dea2d0bf90754ffa40e0cb2f23b638f3e3d7e09'
     }
 }
 
