@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/my/package/stringutil"
+	Stringutil "github.com/siloa-padhy/sasa_test"
 )
 
 func main() {
-	fmt.Println(stringutil.Reverse("!selpmaxe oG ,olleH"))
+	fmt.Println(Stringutil.Reverse("!selpmaxe oG ,olleH"))
 }
